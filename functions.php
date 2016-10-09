@@ -116,6 +116,32 @@ function convention_magician_widgets_init() {
 }
 add_action( 'widgets_init', 'convention_magician_widgets_init' );
 
+/*
+ * Woocommerce functions
+ */
+
+add_action('after_theme_setup', 'convention_magician_woocommerce_support');
+function convention_magician_woocommerce_support(){
+    add_theme_support('woocommerce');
+}
+
+remove_action('woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+function convention_magician_wrapper_start() { ?>
+    <div class="wrap">
+    <div class="primary content-area">
+    <main id="main" class="site-main" role="main">
+<?php }
+function convention_magician_wrapper_end() {?>
+    </main><!-- #main -->
+    </div><!-- .primary -->
+
+    <?php get_sidebar(); ?>
+
+    </div><!-- .wrap -->
+<?php }
+
 /**
  * Implement the Custom Header feature.
  */
