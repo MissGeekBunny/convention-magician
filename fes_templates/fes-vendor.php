@@ -4,7 +4,7 @@
  *
  * This page template is ready for use with EDD's [downloads] shortcode for single Vendors.
  *
- * @package Vendd
+ * @package Convention Magician
  */
  
 get_header(); ?>

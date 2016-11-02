@@ -2,7 +2,7 @@
 /*
  * Template Name: FES Dashboard
  *
- * @package Vendd
+ * @package Convention Magician
  */
 
 get_header(); ?>

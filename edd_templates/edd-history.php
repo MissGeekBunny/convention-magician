@@ -2,7 +2,7 @@
 /*
  * Template Name: EDD Purchase History
  *
- * @package Vendd
+ * @package Convention Magician
  */
 
 get_header(); ?>

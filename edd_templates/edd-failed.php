@@ -2,7 +2,7 @@
 /*
  * Template Name: EDD Transaction Failed
  *
- * @package Vendd
+ * @package Convention Magician
  */
 
 get_header(); ?>

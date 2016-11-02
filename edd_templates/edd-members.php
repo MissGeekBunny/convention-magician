@@ -2,7 +2,7 @@
 /*
  * Template Name: EDD Members
  *
- * @package Vendd
+ * @package Convention Magician
  */
 
 get_header(); ?>

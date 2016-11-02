@@ -2,13 +2,13 @@
 /**
  * hide purchase button behind a toggle button
  *
- * @package Vendd
+ * @package Convention Magic
  */
 ?>
 
-<a class="product-link vendd-show-button" href="#"><i class="fa fa-plus-circle vendd-price-button-icon"></i></a>
-<div class="vendd-price-button-container">
-	<span class="vendd-price-button">
+<a class="product-link convention-magic-show-button" href="#"><i class="fa fa-plus-circle convention-magic-price-button-icon"></i></a>
+<div class="convention-magic-price-button-container">
+	<span class="convention-magic-price-button">
 		<?php echo edd_get_purchase_link( array( 'download_id' => get_the_ID() ) ); ?>
 	</span>
 </div>
