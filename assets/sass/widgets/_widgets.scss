@@ -9,6 +9,9 @@
 	select {
 		max-width: 100%;
 	}
+  ul {
+    list-style-type: none;
+  }
 }
 
 // Search widget
@@ -16,3 +19,4 @@
 .widget_search .search-submit {
 	display: none;
 }
+
