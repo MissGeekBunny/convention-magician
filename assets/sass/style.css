@@ -450,7 +450,15 @@ table {
   margin: 0 0 1.5rem 0; }
 
 th {
-  font-weight: 700; }
+  font-weight: 700;
+  border: 1px solid #000000;
+  padding: 5px; }
+  th a {
+    text-decoration: none; }
+
+td {
+  border: 1px solid #000000;
+  padding: 5px; }
 
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
@@ -613,6 +621,8 @@ The `sprites` mixin generates identical output to the CSS template
 
 .site-title {
   font-size: 3rem; }
+  .site-title a {
+    text-decoration: none; }
 
 .site-description {
   font-size: 1.5rem;
@@ -728,6 +738,8 @@ a {
 
 .entry-title {
   font-size: 2.25rem; }
+  .entry-title a {
+    text-decoration: none; }
 
 .sticky {
   display: block; }
@@ -1124,7 +1136,7 @@ textarea {
   margin: 0 0 1.5rem; }
   .widget select {
     max-width: 100%; }
-  .widget ul {
+  .widget ul li {
     list-style-type: none; }
 
 .widget_search .search-submit {

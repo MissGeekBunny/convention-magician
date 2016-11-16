@@ -242,7 +242,7 @@ function convention_magician_do_post_image( $size = 'thumbnail' ) {
 	$media = current( $media );
 
 	// Set up default image path.
-	$media_url = get_stylesheet_directory_uri() . '/assets/images/placeholder.png';
+	$media_url = get_stylesheet_directory_uri() . '/assets/images/sprites.png';
 
 	// If an image is present, then use it.
 	if ( is_array( $media ) && 0 < count( $media ) ) {
@@ -276,7 +276,7 @@ function convention_magician_get_post_image_uri( $size = 'thumbnail' ) {
 	$media = current( $media );
 
 	// Set up default image path.
-	$media_url = get_stylesheet_directory_uri() . '/assets/images/placeholder.png';
+	$media_url = get_stylesheet_directory_uri() . '/assets/images/sprites.png';
 
 	// If an image is present, then use it.
 	if ( is_array( $media ) && 0 < count( $media ) ) {

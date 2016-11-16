@@ -1,21 +1,21 @@
-# Copyright (C) 2016 _s
-# This file is distributed under the same license as the _s package.
+# Copyright (C) 2016 convention-magician
+# This file is distributed under the same license as the convention-magician package.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s\n"
-"Report-Msgid-Bugs-To: http://_s.com\n"
+"Project-Id-Version: convention-magician\n"
+"Report-Msgid-Bugs-To: http://missgeekbunny.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
-"Last-Translator: John Doe <mail@_s.com>\n"
-"Language-Team: Team <mail@_s.com>\n"
+"Last-Translator: Miss Geek Bunny Studios <missy@missgeekbunny.com>\n"
+"Language-Team: Team <missy@missgeekbunny.com>\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
@@ -54,6 +54,56 @@ msgstr ""
 
 #: comments.php:78
 msgid "Comments are closed."
+msgstr ""
+
+#: edd_templates/shortcode-content-price.php:2
+msgid "Starting at: "
+msgstr ""
+
+#: edd_templates/shortcode-content-price.php:4
+msgid "Price: "
+msgstr ""
+
+#: edd_templates/shortcode-content-price.php:6
+msgid "Free Download"
+msgstr ""
+
+#: edd_templates/shortcode-content-title.php:4
+msgid "by"
+msgstr ""
+
+#: fes_templates/frontend-orders.php:25
+msgctxt "FES vendor dashboard Order display"
+msgid "Price"
+msgstr ""
+
+#: fes_templates/frontend-orders.php:33
+msgctxt "FES vendor dashboard Order display"
+msgid "Customer"
+msgstr ""
+
+#: fes_templates/frontend-orders.php:41
+msgctxt "FES vendor dashboard Order display"
+msgid "Details"
+msgstr ""
+
+#: fes_templates/frontend-products.php:28
+msgctxt "FES vendor dashboard Product display"
+msgid "Price"
+msgstr ""
+
+#: fes_templates/frontend-products.php:36
+msgctxt "FES vendor dashboard Product display"
+msgid "Purchases"
+msgstr ""
+
+#: fes_templates/frontend-products.php:44
+msgctxt "FES vendor dashboard Product display"
+msgid "Details"
+msgstr ""
+
+#: fes_templates/frontend-products.php:62
+msgid "No items found"
 msgstr ""
 
 #: functions.php:49
@@ -164,6 +214,22 @@ msgstr ""
 msgid "Please define an SVG icon filename."
 msgstr ""
 
+#: inc/template-tags.php:358
+msgid "Share This"
+msgstr ""
+
+#: inc/template-tags.php:362, inc/template-tags.php:363
+msgid "Share on Twitter"
+msgstr ""
+
+#: inc/template-tags.php:368, inc/template-tags.php:369
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/template-tags.php:374, inc/template-tags.php:375
+msgid "Share on LinkedIn"
+msgstr ""
+
 #: search.php:20
 msgid "Search Results for: %s"
 msgstr ""
@@ -173,12 +239,20 @@ msgid "To search this site, enter a search term"
 msgstr ""
 
 #: searchform.php:3
-msgctxt "_s"
+msgctxt "convention-magician"
 msgid "Search"
 msgstr ""
 
 #: searchform.php:4
 msgid "Submit"
+msgstr ""
+
+#: template-parts/content-event.php:28, template-parts/content-presentation.php:28, template-parts/content-product.php:28, template-parts/content.php:33
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-event.php:33, template-parts/content-page.php:22, template-parts/content-presentation.php:33, template-parts/content-product.php:33, template-parts/content.php:38
+msgid "Pages:"
 msgstr ""
 
 #: template-parts/content-none.php:14
@@ -195,12 +269,4 @@ msgstr ""
 
 #: template-parts/content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
-
-#: template-parts/content-page.php:22, template-parts/content.php:38
-msgid "Pages:"
-msgstr ""
-
-#: template-parts/content.php:33
-msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""

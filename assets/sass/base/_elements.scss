@@ -60,4 +60,13 @@ table {
 
 th {
 	font-weight: 700;
+	border: 1px solid $color-black;
+    padding: 5px;
+  a{
+    text-decoration: none;
+  }
+}
+td {
+    border: 1px solid $color-black;
+    padding: 5px;
 }
