@@ -373,7 +373,7 @@ big {
     border-radius: 3px;
     box-shadow: 0 0 0.125rem 0.125rem rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #21759b;
+    color: #380973;
     display: block;
     font-size: 0.875rem;
     font-weight: 700;
@@ -629,11 +629,11 @@ The `sprites` mixin generates identical output to the CSS template
   margin: 0 0 1.5rem 0; }
 
 a {
-  color: #21759b; }
+  color: #380973; }
   a:visited {
-    color: #21759b; }
+    color: #380973; }
   a:hover, a:focus, a:active {
-    color: #21759b; }
+    color: #380973; }
 
 .menu-toggle {
   display: block; }
@@ -766,6 +766,14 @@ a {
 
 .edit-link {
   margin: 0 1.5rem; }
+
+.entry-footer a {
+  text-decoration: none; }
+.entry-footer span {
+  margin-right: 5px; }
+
+.entry-meta a {
+  text-decoration: none; }
 
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
