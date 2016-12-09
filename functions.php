@@ -117,7 +117,7 @@ function convention_magician_widgets_init() {
 add_action( 'widgets_init', 'convention_magician_widgets_init' );
 
 /*
- * Woocommerce functions
+ * Woocommerce Functions
  */
 
 add_action('after_theme_setup', 'convention_magician_woocommerce_support');
@@ -141,6 +141,10 @@ function convention_magician_wrapper_end() {?>
 
     </div><!-- .wrap -->
 <?php }
+
+/*
+ * Easy Digital Downloads Functions
+ */
 
 /**
  * Implement the Custom Header feature.
@@ -171,3 +175,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load styles and scripts.
  */
 require get_template_directory() . '/inc/scripts.php';
+
+/*
+ * Load required plugins list
+ */
+require get_template_directory() . '/inc/plugins.php';
