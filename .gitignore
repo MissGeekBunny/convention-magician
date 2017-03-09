@@ -3,3 +3,4 @@ node_modules
 .sass-lint.yml
 .idea
 assets/sass/style.css.map
+bower_components

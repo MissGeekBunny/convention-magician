@@ -23,7 +23,7 @@ function convention_magician_register_js_composer_plugins() {
         array(
             'name'          => 'WPBakery Visual Composer', // The plugin name
             'slug'          => 'js_composer', // The plugin slug (typically the folder name)
-            'source'            => get_stylesheet_directory() . '/js_composer.zip', // The plugin source
+            'source'            => get_stylesheet_directory() . '/assets/js_composer.zip', // The plugin source
             'required'          => true, // If false, the plugin is only 'recommended' instead of required
             'version'           => '3.7', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
             'force_activation'      => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
@@ -45,8 +45,6 @@ function convention_magician_register_js_composer_plugins() {
     $config = array(
         'domain'        => $theme_text_domain, // Text domain - likely want to be the same as your theme.
         'default_path'      => '', // Default absolute path to pre-packaged plugins
-        'parent_menu_slug'  => 'themes.php', // Default parent menu slug
-        'parent_url_slug'   => 'themes.php', // Default parent URL slug
         'menu'          => 'install-required-plugins', // Menu slug
         'has_notices'       => true, // Show admin notices or not
         'is_automatic'      => false, // Automatically activate plugins after installation or not

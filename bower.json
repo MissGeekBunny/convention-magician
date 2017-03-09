@@ -28,5 +28,7 @@
     "tests"
   ],
   "dependencies": {
+    "normalize-css": "latest",
+    "animate.css": "latest"
   }
 }
